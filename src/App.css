@@ -1,0 +1,419 @@
+.mainnavbar li
+{
+  list-style-type: none;     
+  display:inline-flex; 
+  right:-74%;
+  padding: 10px;
+  position: relative;
+  color:#fff;
+  height: 50px;
+  margin-bottom: -5px;
+  margin-top: -5px;
+}
+.navbar1
+{       
+  background-color: #2e3d44;
+  width:100%;
+}
+.navbar1 ul{
+  margin-bottom: 0rem!important;
+}
+.mainnavbar .verticalline
+{
+  border-right: 1px solid #dcdada6f;
+  height:40px;
+}
+
+.navbutton button
+{
+  border: none;
+  background-color: #08d665;
+  margin-top:-5px;
+  margin-bottom:-5px;
+  margin-left: -11px;
+  color:#fff;
+}
+.navbutton button:hover
+{
+background-color: transparent;
+color:#08d665;
+}
+
+.verticalline:hover
+{
+  color:#70dda1;
+}
+
+.mainnavbar2 li
+{
+  list-style-type: none;     
+  display:inline-flex; 
+  padding: 20px;
+  position: relative;
+  color:#fff;   
+  margin-top: -10px;          
+}
+
+.mainnavbar2 li:hover
+{
+color:#9af9c5;
+}
+.navbar2
+{       
+  background-color: #000;
+  width:100%;
+  height: 80px;
+}
+
+.navitem 
+{
+  position: relative;
+  top:-20px;
+  right:-20%;
+}
+
+.navlist 
+{
+  right:-35%;
+}
+.navlistt
+{
+  padding-right:-38%;
+}
+
+.fafaicon 
+{
+  margin-right: 15%;
+  color:#08d665;
+  font-size: 20px;
+  margin-top: -5%;
+}
+.navbar1 ul{
+  margin-bottom: 0rem!important;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width:150px;
+  padding: 0px;
+  z-index: 1;
+  overflow: hidden;
+  background-color: #2e3d44;
+  margin-top:56%;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content li
+{
+  padding: 10px !important;
+}
+
+.navbar2 > ul > li:after{
+  position: absolute;
+  content: "";
+  height: 1px;
+  width: 20%;
+  background: #08d665;
+  left: 0;
+  bottom: 0;
+  visibility: hidden;
+  opacity: 0;
+  transition: all .3s;
+}
+.navbar2 > ul > li:hover:after, .navbar2 > ul > li.current:after {
+  width: 100%;
+  visibility: visible;
+  opacity: 1;
+  transition: all .3s;
+}
+.dropdown .dropdown-content li:hover {
+  color: #08D665;
+  padding-left: 30px;
+}
+.dropdown .dropdown-content li:hover:after {
+  visibility: visible;
+  opacity: 1;
+  left: 0;
+  transition: all .3s;
+}
+
+/* CONTACT US PAGE  */
+.contactheading1 hr
+{
+  border-bottom: 2px solid #08D665;
+  position: relative;
+  width: 11%;
+  left: -50px;
+  top: 0px;
+}
+.cont 
+{
+position: relative;
+left:87px;
+font-weight: 700;
+top:-35px;
+color:#fff;
+}
+.contactheading
+{
+  font-size: 40px;
+  font-weight: 700;
+  color:#08D665;
+}
+
+.howicanhelp span
+{
+  font-size: 30px;
+  font-weight: 700;
+  position: relative;
+  left:-18px;
+}
+
+.contactdetails input
+{
+  width:100%;
+  height:40px;
+}
+.contactdetails textarea
+{
+  width:100%;
+  height:100px;
+}
+.submitt button
+{
+  background-color: #08D665;
+  border: none;
+  height:40px;
+  width:20%;
+  font-weight: 600;
+}
+.headingbold 
+{
+  font-size: 24px;
+  font-weight: 1000;
+  padding-top: 30px;
+}
+.mycontactinfophone
+{
+  border:none;
+  width:100%;
+  height:200px;
+  background-image: url(/public/assets/image/Phone.png);
+  background-size: 100%,100%;
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;          
+}
+.mycontactinfophone:hover
+{
+  transform: translateX(5px); /* Move the image up by 5px */
+  opacity: 0.8;
+}
+.mycontactinfophone p
+{
+  color: #000;
+  font-weight: 700;
+}
+.mycontactinfoemail
+{
+  border:none;
+  width:100%;
+  height:200px;
+  background-image: url(/public/assets/image/Email.png);
+  background-size: 100%,100%;
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+.mycontactinfoemail:hover
+{
+  transform: translateX(5px); /* Move the image up by 5px */
+  opacity: 0.8;
+}
+.mycontactinfoemail p
+{
+  color: #000;
+  font-weight: 700;
+}
+.mycontactinfoaddress
+{
+  border:none;
+  width:100%;
+  height:200px;
+  background-image: url(/public/assets/image/Address.png);
+  background-size: 100%,100%;
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out; 
+}
+.mycontactinfoaddress
+{
+  border:none;
+  width:100%;
+  height:200px;
+  background-image: url(/public/assets/image/Address.png);
+  background-size: 100%,100%;
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out; 
+}
+.mycontactinfoaddress:hover
+{
+  transform: translateX(5px); /* Move the image up by 5px */
+  opacity: 0.8;
+}
+.mycontactinfoaddress p
+{
+  color: #000;
+  font-weight: 700;
+}
+.headdddd{
+  /* position: fixed; */
+  width: 100%;
+  z-index: 9999;
+}
+
+/* ABOUT PAGE  */
+.headingbolddd
+{
+  font-size: 40px;
+  font-weight: 700;
+ color:#08D665;
+}
+.aboutme hr
+{
+  border-bottom: 2px solid #08D665;
+  width: 14%;          
+  margin-left:0px;    
+  top: 0px;
+}
+
+.who
+{
+  position: relative;
+  font-weight: 700;
+  top:-35px;
+  padding-left:115px; 
+  color:#fff;    
+}
+.aboutmequote span
+{
+  font-size: 30px;
+  color:#2e3d44;
+  font-weight: 500;
+  text-shadow: 2px 2px #ff0000;
+}
+.aboutmequote .quoteproviderrrrr
+{
+  color:#ff0000;
+  font-weight: 700;
+  text-shadow: 2px 2px #000;
+}
+.aboutmeparagraph p
+{
+  color:#fff;
+}
+
+.cvpdff button 
+{
+  background-color: #08D665;
+  border: none;
+  color:#f9f9f9;
+  width:40%;
+  padding:10px;
+  font-weight: 600;
+}
+.cvpdff  a:hover
+{
+  color:#000;
+  font-weight: 600;
+}
+.cvpdff a 
+{
+  color:#f9f9f9;
+  text-decoration: none;
+}
+
+/* EXPERIENCE PAGE START FROM HERE */
+.look
+{
+  position: relative;
+  font-weight: 700;
+  top:-35px;
+  padding-left:115px;
+  color:#fff;
+}
+.experience hr
+{
+  border-bottom: 2px solid #08D665;
+  position: relative;
+  width: 7%;
+  left: -60px;
+  top: 0px;
+}
+
+.entirebox
+{
+  background-color:#000 ;
+  border-radius: 35px;
+}
+.backgroundcolorr
+{
+  background-color: #212529;
+}
+.shiftingtext
+{
+ padding:0px 70px;   
+ transform: translate(8%,-30%);
+}
+
+.year h3
+{
+  position: absolute;
+  font-size: 100px;
+  font-weight: 800;
+  color:#08d665;
+  z-index: 1;      
+  right:-120px;
+  top:150px;
+}
+.month h6
+{
+  color:#fff;
+  position:absolute;
+  font-size: 20px;
+  right:-80px;
+  z-index: 1;
+  top:220px;
+}
+.designstion h2
+{
+  color:#fff;
+  font-size: 50px;
+}
+.myworkrole p
+{
+  color:#fff;
+}
+.workingheading strong
+{
+  color:#ff0000;
+}
+.mywork p
+{
+  color:#fff;
+}
+.shiftingtext a
+{
+  color:#08d665;
+  text-decoration: none;
+}
+.shiftingtext a:hover
+{
+  color:#09733c;
+}
+
+/* Media Query for Mobile */
+
